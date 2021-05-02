@@ -52,14 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello🥳 {}, my name is {}! 
+Hello🥳 {}, my name is Tera Baap Bot
 You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @sangramghangale ❤
+i'm a group manager bot. Maintained by @prince_3011 ❤
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is TERA BAAP.
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -204,15 +204,15 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/maharashtrafriendcircle"),
+                             url=f"https://t.me/PRINCE_MUSIC_CHATS"),
                          InlineKeyboardButton(
                              text="📘 Logs",
-                             url="https://t.me/chocolatyqueenvcplayer")
+                             url="https://t.me/prince_3011")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/sangramghangale/QueenRobot")
+                             url="https://github.com/prince301102/LaylaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
